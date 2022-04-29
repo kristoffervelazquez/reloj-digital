@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+.reloj {
+    font-family: sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 1px #333;
+    
+}
+
+.container {
+    background-color: rgb(12, 119, 206);
+    padding: 25px;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    
+}
+
+
+#fecha {
+    letter-spacing: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    
+}
+
+#hora{
+    -webkit-text-stroke: 1px white;
+}
